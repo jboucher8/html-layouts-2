@@ -1,0 +1,98 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.main-container {
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+
+	/*-ms-box-orient: horizontal;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: flex;*/
+}
+
+.top-section {
+	/*-webkit-justify-content: flex-start;
+	justify-content: flex-start;*/
+	display: flex;
+}
+
+.flex-box-top {
+	width: 30%;
+	height: 50px;
+	background-color: blue;
+	padding: 100px;
+	justify-content: space-between;
+	display: inline-flex;
+	margin: 15px;
+}
+
+.content-section {
+	height: 40%;
+	width: 100%;
+	background-color: white;
+	text-align: left;
+	font-size: 20px;
+	font-family: sans-serif;
+	padding: 15px 25px 15px 15px;
+}
+
+.mid-section {
+	display: flex;
+	padding: 15px 25px 15px 15px;
+	width: 100%;
+}
+.flex-box-mid {
+	height: 400px;
+	width: 30%
+}
+
+.flex-box-mid2 {
+	width: 70%;
+	height: 400px;
+}
+
+.bottom-section {
+	display: flex;
+	padding: 15px 25px 15px 15px;
+	width: 100%;
+	height: 250px;
+
+}
+.flex-box-bottom-blue {
+	width: 70%;
+
+}
+.flex-box-bottom-red {
+	width: 5%;
+
+}
+.flex-box-bottom-gray {
+	width: 20%
+
+}
+
+/* box colors */
+#red {
+	background-color: #D0021B;
+}
+#blue {
+	background-color: #4A90E2;
+}
+#gray {
+	background-color: #4A4A4A;
+}
